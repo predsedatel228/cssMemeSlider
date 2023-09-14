@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #2A2C2F;
+}
+
+.slider {
+  width: 1100px;
+  height: 600px;
+  overflow-x: hidden;
+  border: 10px solid #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border-radius: 10px;
+}
+
+
+.navigation {
+  position: absolute;
+  bottom: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+.navigation__button {
+  height: 8px;
+  width: 30px;
+  margin: 6px;
+  cursor: pointer;
+  background-color: aliceblue;
+  opacity: 0.5;
+  border-radius: 10px;
+  transition: all 0.5s linear;
+}
+
+.navigation__button:hover {
+  opacity: 0.8;
+  transform: scale(1.1);
+}
+
+input[name='slider'] {
+  position: absolute;
+  visibility: hidden;
+}
