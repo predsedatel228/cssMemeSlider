@@ -76,8 +76,7 @@ body {
 }
 
 input[name='slider'] {
-  visibility: hidden;
-  position: absolute;
+  display: none;
 }
 
 #radio1:checked ~ .start {
